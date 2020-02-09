@@ -12,8 +12,8 @@ import random
 import csv
 
 # Defining the needed variables
-api_id = '683428'
-api_hash = '967b28d111f82b906b6f28da1ff04411'
+api_id = '1120330'
+api_hash = '3a08c97e4d803d9d5b341e99c0d173f3'
 customMsg = ''
 targetGrp = ''
 user = ''
@@ -26,7 +26,7 @@ registeredusers = [n[0] for n in idlist]
 
 client = TelegramClient('session', api_id=api_id, api_hash=api_hash).start()
 
-bot = telebot.TeleBot(token='1094295882:AAEF0PwOQKL88K6L5zslnpxKxWCGnfd0s3Q')
+bot = telebot.TeleBot(token='944143134:AAGj1JuGvpQbknKHLKsqMEmEOLIPo_WCYcQ')
 print("Ready")
 
 @bot.message_handler(commands=['start'])
