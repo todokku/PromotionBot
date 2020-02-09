@@ -1,1 +1,1 @@
-myworker:  python dowork.py
+myworker:  python spam.py
